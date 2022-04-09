@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c697a669aa.js" ></script>
+    <link rel="stylesheet" href="index.css">
+
+    <title>DOIT</title>
+</head>
+<body>
+
+    <!-- first page, welcome page, includes sign up / log in -->
+
+    <div class="mainDivWel">
+
+        <div class="subMainWel">
+            <div class="welDivOne">
+                <div class="welDivOneOverlay">
+                </div>
+            </div>
+
+            <!-- right div with comtent -->
+            <div class="welDivTwo">
+               <div class="overlayWel">
+                <div class="logoDiv">
+                    <div class="logoDiv-01"></div>
+                </div>
+                <div class="welText">
+                    <h1 class="WelH">Welcome</h1>
+                    <p class="WelP">Start adding your tasks and get them done.</p>
+                </div>
+                <div class="btns-div">
+                    <div class="sign" id="btn-wel">Sign up</div>
+                    <a href="log.html" class="logIn" id="btn-wel-01">Log in</a>
+                </div>
+               </div>
+            </div>
+    
+        </div>
+     
+
+    </div>
+
+
+    <!-- second div sign up page -->
+
+
+    <div class="mainSignUpDiv">
+        <div class="mainSignUpDiv-01">
+                <div class="signUpTop">
+                    <div class="backSign"><i class="fa fa-chevron-left"></i><p class="backPSignup">Back</p></div>
+                </div>
+
+                
+
+                <div class="form-div-signup">
+                    <h1 class="signUpH">Sign Up</h1>
+
+                    <form action="" class="formSignUp">
+                        <label for="" id="signTexts">Username :</label>
+                        <input type="text" class="firstName" id="boxSignUp" required>
+                        <label for="" id="signTexts">Email :</label>
+                        <input type="email" class="emailSignUp" id="boxSignUp" required>
+                        <label for="" id="signTexts" >Password :</label>
+                        <input type="password" class="passwordSignUp" id="boxSignUp" required>
+                        <div class="errorSign"><p class="errorSign"></p></div>
+                    <button class="createAcc" type="submit">Create account</button>
+
+                    </form>
+
+                </div>
+        </div>
+    </div>
+
+
+    <!-- account created div -->
+    <div class="accMain">
+        <div class="accMain-01">
+            <div class="tickIcon"><i class="fa-regular fa-circle-check" id="accCreatedTick"></i></div>
+            <div class="textsAcc"><h1 class="accCreates">Account created</h1></div>
+            <a class="createLog" href="log.html">Log in</a>
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

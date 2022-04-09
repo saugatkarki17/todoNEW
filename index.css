@@ -1,0 +1,976 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fort;
+    src: url(/LuckiestGuy-Regular.ttf);
+}
+
+
+/* welcome page for pc */
+
+.mainDivWel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    
+}
+
+.subMainWel {
+    width: 50%;
+    height: 38rem;
+    background-color: white;
+    display: flex;
+    animation-name: signup;
+    animation-duration: 0.25s;
+}
+.welDivOne {
+    width:45%;
+    height: 100%;
+    background-image: url(/main-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.welDivTwo {
+    width:50%;
+    height: 100%;
+margin-left: 3%;
+justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.welDivOneOverlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.422), #00e67b8a);
+}
+
+.overlayWel {
+    width: 100%;
+    height: 100%;
+}
+.logoDiv {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoDiv-01 {
+    width: 200px;
+        height: 200px;
+    background-image: url(/DOITlogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+
+}
+.welText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.WelH {
+    font-size: 55px;
+font-family:fort ;
+font-weight: 100;
+letter-spacing: 2px;
+color: #333333;
+}
+.WelP {
+    font-size: 15px;
+font-family:sans-serif ;
+font-weight: 500;
+color: #4b4b4b;
+}
+.btns-div{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 9rem;
+justify-content:space-evenly;
+margin-top: 2rem;
+}
+#btn-wel {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+transition: 0.15s;
+
+}
+#btn-wel-01 {
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: #333333;
+font-weight: 600;
+letter-spacing: 1px;
+border:3px solid #00e679;
+cursor: pointer;
+text-decoration: none;
+
+transition: 0.15s;
+}
+#btn-wel-01:hover {
+transform: scale(1.08);
+}
+
+#btn-wel:hover {
+transform: scale(1.08);
+}
+
+
+/* sign up page for PC */
+
+.mainSignUpDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+@keyframes signup {
+    from {
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+.mainSignUpDiv-01 {
+    width: 32%;
+    height: 40rem;
+    animation-name: signup;
+    animation-duration: 0.25s;
+    background-color: white;
+}
+.signUpTop {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+color: #00e679;
+}
+.backSign {
+    display: flex;
+    width: 4.1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.backSign:hover {
+    transform: scale(1.08);
+}
+.backPSignup {
+color: #333333;
+font-family: sans-serif;
+font-size: 13.5px;
+font-weight: bold;
+letter-spacing: .2px;
+}
+
+.signUpH {
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+
+}
+
+.formSignUp {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#signTexts {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333333;
+    font-weight: 700;
+    margin-right: auto;
+}
+#boxSignUp {
+    width: 100%;
+    height: 3rem;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #00e679;
+    background-color: rgba(245, 245, 245, 0.596);
+}
+.createAcc {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+/* account created page */
+
+.accMain {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(232, 232, 232);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.accMain-01 {
+    width: 30%;
+    height: 35rem;
+    background-color:rgb(255, 255, 255);
+}
+.tickIcon {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accCreatedTick {
+    color: #00e679;
+    font-size: 150px;
+}
+.accCreates {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #4b4b4b;
+}
+.createLog {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+border: none;
+margin-left: auto;
+margin-right: auto;
+transition: 0.2s ease;
+margin-top: 3rem;
+text-decoration: none;
+
+}
+.createLog:hover {
+    transform: scale(1.08);
+}
+.errorSign {
+    
+font-family: sans-serif;
+color: red;
+text-align: center;
+
+
+
+}
+
+
+
+
+/* ipad */
+
+@media (max-width : 1030px) {
+
+/* ipad welcome page */
+
+   
+.mainDivWel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+}
+.subMainWel {
+    width: 85%;
+    height: 38rem;
+    background-color: white;
+    display: flex;
+
+}
+.welDivOne {
+    width:45%;
+    height: 100%;
+    background-image: url(/main-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.welDivTwo {
+    width:50%;
+    height: 100%;
+margin-left: 3%;
+justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.welDivOneOverlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.422), #00e67b8a);
+}
+
+.overlayWel {
+    width: 100%;
+    height: 100%;
+}
+.logoDiv {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoDiv-01 {
+    width: 200px;
+        height: 200px;
+    background-image: url(/DOITlogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+
+}
+.welText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.WelH {
+    font-size: 55px;
+font-family:fort ;
+font-weight: 100;
+letter-spacing: 2px;
+color: #333333;
+}
+.WelP {
+    font-size: 15px;
+font-family:sans-serif ;
+font-weight: 500;
+color: #4b4b4b;
+}
+.btns-div{
+    width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 9rem;
+justify-content:space-evenly;
+margin-top: 2rem;
+}
+#btn-wel {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+transition: 0.15s;
+
+}
+#btn-wel-01 {
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: #333333;
+font-weight: 600;
+letter-spacing: 1px;
+border:3px solid #00e679;
+cursor: pointer;
+transition: 0.15s;
+text-decoration: none;
+
+}
+#btn-wel-01:hover {
+transform: scale(1.08);
+}
+
+#btn-wel:hover {
+transform: scale(1.08);
+} 
+
+
+/* sign up page for IPAD */
+
+.mainSignUpDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+    justify-content: center;
+    display: none;
+    align-items: center;
+}
+.mainSignUpDiv-01 {
+    width: 70%;
+    height: 40rem;
+    background-color: white;
+}
+.signUpTop {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+color: #00e679;
+}
+.backSign {
+    display: flex;
+    width: 4.1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.backSign:hover {
+    transform: scale(1.08);
+}
+.backPSignup {
+color: #333333;
+font-family: sans-serif;
+font-size: 13.5px;
+font-weight: bold;
+letter-spacing: .2px;
+}
+
+.signUpH {
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+
+}
+
+.formSignUp {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#signTexts {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #333333;
+    font-weight: 700;
+    margin-right: auto;
+}
+#boxSignUp {
+    width: 100%;
+    height: 3rem;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #00e679;
+    background-color: rgba(245, 245, 245, 0.596);
+}
+.createAcc {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+/* account created page */
+
+.accMain {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(232, 232, 232);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.accMain-01 {
+    width: 50%;
+    height: 35rem;
+    background-color:rgb(255, 255, 255);
+}
+.tickIcon {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accCreatedTick {
+    color: #00e679;
+    font-size: 150px;
+}
+.accCreates {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #4b4b4b;
+}
+.createLog {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+border: none;
+margin-left: auto;
+margin-right: auto;
+transition: 0.2s ease;
+margin-top: 3rem;
+    text-decoration: none;
+
+}
+.createLog:hover {
+    transform: scale(1.0);
+}
+
+    
+    
+}
+
+/* mobile */
+
+
+@media (max-width : 420px) {
+
+
+/* mobile welcome page */
+
+
+    .mainDivWel {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke
+    }
+    .subMainWel {
+        width: 90%;
+        height: 38rem;
+        background-color: whitesmoke;
+        display: flex;
+    
+    }
+    .welDivOne {
+        width:45%;
+        height: 100%;
+        background-image: url(/main-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: none;
+    }
+    .welDivTwo {
+        width:100%;
+        height: 100%;
+    margin-left: 0;
+    justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+    }
+    .welDivOneOverlay {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.422), #00e67b8a);
+    }
+    
+    .overlayWel {
+        width: 100%;
+        height: 100%;
+    }
+    .logoDiv {
+        width: 100%;
+        height: 19rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .logoDiv-01 {
+        width: 200px;
+            height: 200px;
+        background-image: url(/DOITlogo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        margin-bottom: 3rem;
+    
+    }
+    .welText {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        height: 6.5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .WelH {
+        font-size: 50px;
+    font-family:fort ;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #333333;
+    }
+    .WelP {
+        font-size: 14px;
+    font-family:sans-serif ;
+    font-weight: 600;
+    color: #767676;
+    }
+    .btns-div{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 9rem;
+    justify-content:space-evenly;
+    margin-top: 2rem;
+    }
+    #btn-wel {
+        width: 10rem;
+        height: 3rem;
+        background-color: #00e679;
+        border-radius: 30px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 14.5px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.15s;
+    
+    }
+    #btn-wel-01 {
+        width: 10rem;
+        height: 3rem;
+        background-color: transparent;
+        border-radius: 30px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 14.5px;
+    color: #333333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border:3px solid #00e679;
+    cursor: pointer;
+    transition: 0.15s;
+    text-decoration: none;
+    }
+    #btn-wel-01:hover {
+    transform: scale(1.0);
+    }
+    
+    #btn-wel:hover {
+    transform: scale(1.0);
+    }
+    
+
+
+    /* sign up page for MOBILE */
+
+.mainSignUpDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: flex-start;
+}
+.mainSignUpDiv-01 {
+    width: 100%;
+    height: 40rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+.signUpTop {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+color: #00e679;
+}
+.backSign {
+    display: flex;
+    width: 4.1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.backSign:hover {
+    transform: scale(1.08);
+}
+.backPSignup {
+color: #333333;
+font-family: sans-serif;
+font-size: 13.5px;
+font-weight: bold;
+letter-spacing: .2px;
+}
+
+.signUpH {
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+   
+
+}
+
+.formSignUp {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#signTexts {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333333;
+    font-weight: 700;
+    margin-right: auto;
+}
+#boxSignUp {
+    width: 100%;
+    height: 3rem;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #00e679;
+    background-color: rgba(245, 245, 245, 0.596);
+}
+.createAcc {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+/* account created page */
+
+.accMain {
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(232, 232, 232);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.accMain-01 {
+    width: 90%;
+    height: 35rem;
+    background-color:rgb(255, 255, 255);
+}
+.tickIcon {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accCreatedTick {
+    color: #00e679;
+    font-size: 150px;
+}
+.accCreates {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #4b4b4b;
+}
+.createLog {
+    width: 10rem;
+    height: 3rem;
+    background-color: #00e679;
+    border-radius: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-family: sans-serif;
+font-size: 14px;
+color: white;
+font-weight: 600;
+letter-spacing: 1px;
+cursor: pointer;
+border: none;
+margin-left: auto;
+margin-right: auto;
+transition: 0.2s ease;
+margin-top: 3rem;
+text-decoration: none;
+}
+.createLog:hover {
+    transform: scale(1.0);
+}
+.errorSign {
+    
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    
+    
+    
+    }
+
+    
+}
+
+
+
+
+/* adding */
+.mainDivWelAfter {
+    display: none;
+    transition: 1s ease;
+
+}
+.mainSignUpAfter {
+    display: flex;
+
+}
+.accCreatedAfter {
+    display: flex;
+}
