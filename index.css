@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: fort;
-    src: url(/LuckiestGuy-Regular.ttf);
+    src: url(LuckiestGuy-Regular.ttf);
 }
 
 
@@ -32,7 +32,7 @@
 .welDivOne {
     width:45%;
     height: 100%;
-    background-image: url(/main-img.jpg);
+    background-image: url(main-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -68,7 +68,7 @@ justify-content: space-evenly;
 .logoDiv-01 {
     width: 200px;
         height: 200px;
-    background-image: url(/DOITlogo.png);
+    background-image: url(DOITlogo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -360,7 +360,7 @@ text-align: center;
 .welDivOne {
     width:45%;
     height: 100%;
-    background-image: url(/main-img.jpg);
+    background-image: url(main-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -396,7 +396,7 @@ justify-content: space-evenly;
 .logoDiv-01 {
     width: 200px;
         height: 200px;
-    background-image: url(/DOITlogo.png);
+    background-image: url(DOITlogo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -667,7 +667,7 @@ margin-top: 3rem;
     .welDivOne {
         width:45%;
         height: 100%;
-        background-image: url(/main-img.jpg);
+        background-image: url(main-img.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size:cover;
@@ -705,7 +705,7 @@ margin-top: 3rem;
     .logoDiv-01 {
         width: 200px;
             height: 200px;
-        background-image: url(/DOITlogo.png);
+        background-image: url(DOITlogo.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 60%;
